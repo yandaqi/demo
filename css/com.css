@@ -1,0 +1,17 @@
+
+
+.img1{
+    width: 233px;
+    height: 74px;
+}
+.cl{
+    margin-top: 20px;
+    margin-left: 32%;
+    font-size: 22px;
+    color: #333;
+}
+.cl li{
+    list-style: none;
+    display: inline;
+    padding-left: 20px;
+}

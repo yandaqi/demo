@@ -1,0 +1,24 @@
+window.onload=function(){
+    document.querySelector('.navbar .collapse .about').onclick=function(){
+        localStorage.setItem('skip','guanyuour');
+        location.href='index1.html';
+    }
+    document.querySelectorAll('.xiananli').forEach((item)=>{
+        item.onclick=function(){
+            location.href='index1.html';
+            localStorage.setItem('skip','xiananli'); 
+        }
+    })
+    document.querySelectorAll('.aicreate').forEach((item)=>{
+        item.onclick=function(){
+            location.href='index1.html';
+            localStorage.setItem('skip','aicreate'); 
+        }
+    })
+    document.querySelectorAll('.guanyuour').forEach((item)=>{
+        item.onclick=function(){
+            location.href='index1.html';
+            localStorage.setItem('skip','guanyuour'); 
+        }
+    })
+}
